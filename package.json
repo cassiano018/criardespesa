@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/cassiano018.criardespesa",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve lJ81ILsuEaCfpmIwqdV3 --open"
+  }
+}

@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Despesas">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Nome" name="name" onchange={handleInputChange}> </lightning-input>
+            <lightning-input label="Valor" name="valor" onchange={handleInputChange}> </lightning-input>
+            <lightning-input label="Descrição" name="descricao" onchange={handleInputChange}> </lightning-input> 
+
+            <lightning-button variant="brand" label="Criar Despesa" title="Criar Despesa" onclick={handleInsertDespesa__c}
+                class="slds-m-left_x-small"></lightning-button>
+            <p>Id da Despesa: {nameId}</p>
+        </div>
+    </lightning-card>    
+</template>
